@@ -1,0 +1,23 @@
+-------------------------------SolutionTree::ProcessNodeVector----------------------------------
+mintermCount:9
+--------SolutionTree::FindAssignmentSetsOfStringForMintermVector---------
+----------------------AssMat----------------------
+0101 
+0101 
+0101 
+0101 
+ invoke the espresso through MVSIS
+literalCount:  1
+-------------------------------SolutionTree::ProcessNodeVector----------------------------------
+mintermCount:1
+--------SolutionTree::FindAssignmentSetsOfStringForMintermVector---------
+----------------------AssMat----------------------
+1101 
+0101 
+0101 
+0101 
+ invoke the espresso through MVSIS
+literalCount:  4
+The minimum literal number is 4
+Solution number: 1
+

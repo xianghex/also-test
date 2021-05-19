@@ -54,6 +54,8 @@
 #include "commands/stochastic.hpp"
 #include "commands/app.hpp"
 #include "commands/xmgban.hpp"
+#include "commands/aa.hpp"
+#include "commands/test.hpp"
 
 ALICE_MAIN( also )
 
