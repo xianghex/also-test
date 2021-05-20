@@ -1,3 +1,6 @@
-temp.pla:  pi = 4  po = 1  latch = 0  node = 1  level = 1
-SOP (100.0%):  cubes = 2  lits = 4  lits(ff) = 4
-MDD (  0.0%):  nodes(bdd) = 0
+[i] Not trivial case, need further solve.
+ Try the unnormal function
+ Try the unnormal function
+[i] 3 steps are required 
+[expressions] e=<abc> f=<!0de>  g=<!cdf> 
+[time]:  0.15 seconds

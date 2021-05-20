@@ -301,6 +301,7 @@ src/CMakeFiles/also.dir/also.cpp.o
  /home/hexiang/test/src/commands/xmgcost.hpp
  /home/hexiang/test/src/commands/xmgcost2.hpp
  /home/hexiang/test/src/commands/xmginv.hpp
+ /home/hexiang/test/src/commands/xmgrs.hpp
  /home/hexiang/test/src/commands/xmgrw.hpp
  /home/hexiang/test/src/core/aig2xmg.hpp
  /home/hexiang/test/src/core/cut_enumeration/img_cut.hpp

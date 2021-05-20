@@ -4197,6 +4197,8 @@ commands/exprsim.hpp
 /home/hexiang/test/src/commands/exprsim.hpp
 commands/xmgrw.hpp
 /home/hexiang/test/src/commands/xmgrw.hpp
+commands/xmgrs.hpp
+/home/hexiang/test/src/commands/xmgrs.hpp
 commands/cutrw.hpp
 /home/hexiang/test/src/commands/cutrw.hpp
 commands/xmgcost.hpp
@@ -4551,6 +4553,16 @@ mockturtle/utils/stopwatch.hpp
 -
 ../core/xmg_inv.hpp
 /home/hexiang/test/src/core/xmg_inv.hpp
+
+/home/hexiang/test/src/commands/xmgrs.hpp
+mockturtle/mockturtle.hpp
+-
+mockturtle/algorithms/xmg_resub.hpp
+-
+mockturtle/networks/xmg.hpp
+-
+../core/misc.hpp
+/home/hexiang/test/src/core/misc.hpp
 
 /home/hexiang/test/src/commands/xmgrw.hpp
 mockturtle/networks/xmg.hpp

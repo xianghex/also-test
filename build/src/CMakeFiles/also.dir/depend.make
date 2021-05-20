@@ -300,6 +300,7 @@ src/CMakeFiles/also.dir/also.cpp.o: ../src/commands/xmgban.hpp
 src/CMakeFiles/also.dir/also.cpp.o: ../src/commands/xmgcost.hpp
 src/CMakeFiles/also.dir/also.cpp.o: ../src/commands/xmgcost2.hpp
 src/CMakeFiles/also.dir/also.cpp.o: ../src/commands/xmginv.hpp
+src/CMakeFiles/also.dir/also.cpp.o: ../src/commands/xmgrs.hpp
 src/CMakeFiles/also.dir/also.cpp.o: ../src/commands/xmgrw.hpp
 src/CMakeFiles/also.dir/also.cpp.o: ../src/core/aig2xmg.hpp
 src/CMakeFiles/also.dir/also.cpp.o: ../src/core/cut_enumeration/img_cut.hpp
