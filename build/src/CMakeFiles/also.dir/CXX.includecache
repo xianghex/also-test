@@ -1298,6 +1298,18 @@ kitty/dynamic_truth_table.hpp
 null.hpp
 ../lib/mockturtle/include/mockturtle/algorithms/node_resynthesis/null.hpp
 
+../lib/mockturtle/include/mockturtle/algorithms/node_resynthesis/traits.hpp
+../../traits.hpp
+../lib/mockturtle/include/mockturtle/traits.hpp
+kitty/dynamic_truth_table.hpp
+-
+cstdint
+-
+optional
+-
+type_traits
+-
+
 ../lib/mockturtle/include/mockturtle/algorithms/node_resynthesis/xag_minmc.hpp
 array
 -
@@ -2600,6 +2612,58 @@ stdio.h
 abc/abc_global.h
 ../lib/mockturtle/lib/abcsat/abc/abc/abc_global.h
 
+../lib/mockturtle/lib/abcsat/abc/abc_global.h
+cstdint
+-
+time.h
+-
+stdarg.h
+-
+stdlib.h
+-
+assert.h
+-
+stdio.h
+-
+string.h
+-
+crtdbg.h
+-
+Windows.h
+-
+abc_namespaces.h
+../lib/mockturtle/lib/abcsat/abc/abc_namespaces.h
+
+../lib/mockturtle/lib/abcsat/abc/abc_namespaces.h
+
+../lib/mockturtle/lib/abcsat/abc/satClause.h
+abc/abc_global.h
+-
+
+../lib/mockturtle/lib/abcsat/abc/satSolver.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+assert.h
+-
+satVec.h
+../lib/mockturtle/lib/abcsat/abc/satVec.h
+satClause.h
+../lib/mockturtle/lib/abcsat/abc/satClause.h
+abc/utilDouble.h
+-
+
+../lib/mockturtle/lib/abcsat/abc/satVec.h
+abc/abc_global.h
+-
+
+../lib/mockturtle/lib/abcsat/abc/utilDouble.h
+abc/abc_global.h
+-
+
 ../lib/mockturtle/lib/abcsat/abc/vecInt.h
 stdio.h
 -
@@ -2731,6 +2795,10 @@ abc/abc_global.h
 ../lib/mockturtle/lib/bill/bill/sat/solver/abc/abc_global.h
 abc/system.h
 ../lib/mockturtle/lib/bill/bill/sat/solver/abc/system.h
+
+../lib/mockturtle/lib/bill/bill/sat/solver/abc/AbcGlucose.h
+abc_global.h
+../lib/mockturtle/lib/bill/bill/sat/solver/abc/abc_global.h
 
 ../lib/mockturtle/lib/bill/bill/sat/solver/abc/Alg.h
 Vec.h
@@ -3240,6 +3308,12 @@ cassert
 cstdint
 -
 
+../lib/mockturtle/lib/kitty/kitty/detail/utils.hpp
+algorithm
+-
+string
+-
+
 ../lib/mockturtle/lib/kitty/kitty/dynamic_truth_table.hpp
 cstdint
 -
@@ -3669,6 +3743,16 @@ misc.hpp
 ../lib/mockturtle/lib/percy/percy/misc.hpp
 printer.hpp
 ../lib/mockturtle/lib/percy/percy/printer.hpp
+
+../lib/mockturtle/lib/percy/percy/cnf.hpp
+vector
+-
+abc/satSolver.h
+-
+solvers.hpp
+../lib/mockturtle/lib/percy/percy/solvers.hpp
+cstdio
+-
 
 ../lib/mockturtle/lib/percy/percy/concurrentqueue.h
 TargetConditionals.h
@@ -4237,20 +4321,10 @@ commands/app.hpp
 /home/hexiang/test/src/commands/app.hpp
 commands/xmgban.hpp
 /home/hexiang/test/src/commands/xmgban.hpp
-commands/aa.hpp
-/home/hexiang/test/src/commands/aa.hpp
+commands/heuristic.hpp
+/home/hexiang/test/src/commands/heuristic.hpp
 commands/test.hpp
 /home/hexiang/test/src/commands/test.hpp
-
-/home/hexiang/test/src/commands/aa.hpp
-mockturtle/mockturtle.hpp
--
-sstream
--
-../core/sto/node.h
-/home/hexiang/test/src/core/sto/node.h
-chrono
--
 
 /home/hexiang/test/src/commands/app.hpp
 ../core/exact_app_m3ig.hpp
@@ -4349,6 +4423,16 @@ percy/percy.hpp
 /home/hexiang/test/src/commands/exprsim.hpp
 ../store.hpp
 /home/hexiang/test/src/store.hpp
+
+/home/hexiang/test/src/commands/heuristic.hpp
+mockturtle/mockturtle.hpp
+-
+sstream
+-
+../core/sto/node.h
+/home/hexiang/test/src/core/sto/node.h
+chrono
+-
 
 /home/hexiang/test/src/commands/imgff.hpp
 ../core/misc.hpp
@@ -4578,6 +4662,12 @@ mockturtle/algorithms/mig_algebraic_rewriting.hpp
 ../core/misc.hpp
 /home/hexiang/test/src/core/misc.hpp
 
+/home/hexiang/test/src/core/aig2xmg.cpp
+mockturtle/views/topo_view.hpp
+-
+aig2xmg.hpp
+/home/hexiang/test/src/core/aig2xmg.hpp
+
 /home/hexiang/test/src/core/aig2xmg.hpp
 mockturtle/utils/node_map.hpp
 -
@@ -4622,11 +4712,39 @@ mockturtle/mockturtle.hpp
 
 /home/hexiang/test/src/core/exact_aoig.hpp
 
+/home/hexiang/test/src/core/exact_app_m3ig.cpp
+exact_m3ig_app_encoder.hpp
+/home/hexiang/test/src/core/exact_m3ig_app_encoder.hpp
+exact_app_m3ig.hpp
 /home/hexiang/test/src/core/exact_app_m3ig.hpp
+
+/home/hexiang/test/src/core/exact_app_m3ig.hpp
+
+/home/hexiang/test/src/core/exact_img.cpp
+percy/percy.hpp
+-
+mockturtle/utils/stopwatch.hpp
+-
+mockturtle/properties/migcost.hpp
+-
+../networks/img/img.hpp
+/home/hexiang/test/src/networks/img/img.hpp
+../networks/img/img_compl_rw.hpp
+/home/hexiang/test/src/networks/img/img_compl_rw.hpp
 
 /home/hexiang/test/src/core/exact_img.hpp
 kitty/kitty.hpp
 -
+
+/home/hexiang/test/src/core/exact_m3ig_app_encoder.hpp
+cmath
+-
+mockturtle/mockturtle.hpp
+-
+m3ig_helper.hpp
+/home/hexiang/test/src/core/m3ig_helper.hpp
+misc.hpp
+/home/hexiang/test/src/core/misc.hpp
 
 /home/hexiang/test/src/core/exact_m3ig_encoder.hpp
 vector
@@ -4637,6 +4755,14 @@ misc.hpp
 /home/hexiang/test/src/core/misc.hpp
 m3ig_helper.hpp
 /home/hexiang/test/src/core/m3ig_helper.hpp
+
+/home/hexiang/test/src/core/exact_m3ig_sto_encoder.hpp
+mockturtle/mockturtle.hpp
+-
+m3ig_helper.hpp
+/home/hexiang/test/src/core/m3ig_helper.hpp
+exact_sto_m3ig.hpp
+/home/hexiang/test/src/core/exact_sto_m3ig.hpp
 
 /home/hexiang/test/src/core/exact_m5ig_encoder.hpp
 vector
@@ -4649,6 +4775,20 @@ misc.hpp
 /home/hexiang/test/src/core/misc.hpp
 m5ig_helper.hpp
 /home/hexiang/test/src/core/m5ig_helper.hpp
+
+/home/hexiang/test/src/core/exact_sto_m3ig.cpp
+vector
+-
+iostream
+-
+cmath
+-
+kitty/kitty.hpp
+-
+exact_m3ig_sto_encoder.hpp
+/home/hexiang/test/src/core/exact_m3ig_sto_encoder.hpp
+exact_sto_m3ig.hpp
+/home/hexiang/test/src/core/exact_sto_m3ig.hpp
 
 /home/hexiang/test/src/core/exact_sto_m3ig.hpp
 
@@ -4678,6 +4818,10 @@ mockturtle/mockturtle.hpp
 ../networks/img/img_compl_rw.hpp
 /home/hexiang/test/src/networks/img/img_compl_rw.hpp
 
+/home/hexiang/test/src/core/m3ig_helper.cpp
+m3ig_helper.hpp
+/home/hexiang/test/src/core/m3ig_helper.hpp
+
 /home/hexiang/test/src/core/m3ig_helper.hpp
 misc.hpp
 /home/hexiang/test/src/core/misc.hpp
@@ -4690,10 +4834,48 @@ percy/percy.hpp
 misc.hpp
 /home/hexiang/test/src/core/misc.hpp
 
+/home/hexiang/test/src/core/misc.cpp
+algorithm
+-
+percy/percy.hpp
+-
+string
+-
+sstream
+-
+misc.hpp
+/home/hexiang/test/src/core/misc.hpp
+
 /home/hexiang/test/src/core/misc.hpp
 mockturtle/mockturtle.hpp
 -
 percy/percy.hpp
+-
+
+/home/hexiang/test/src/core/nni_inv.cpp
+iostream
+-
+set
+-
+mockturtle/properties/migcost.hpp
+-
+mockturtle/networks/xmg.hpp
+-
+mockturtle/networks/klut.hpp
+-
+mockturtle/views/fanout_view.hpp
+-
+mockturtle/views/topo_view.hpp
+-
+mockturtle/utils/node_map.hpp
+-
+mockturtle/algorithms/cleanup.hpp
+-
+mockturtle/io/write_dot.hpp
+-
+mockturtle/io/write_bench.hpp
+-
+fmt/format.h
 -
 
 /home/hexiang/test/src/core/nni_inv.hpp
@@ -4710,6 +4892,12 @@ unordered_set
 iostream
 -
 algorithm
+-
+
+/home/hexiang/test/src/core/sto/node.cpp
+node.h
+/home/hexiang/test/src/core/sto/node.h
+stdlib.h
 -
 
 /home/hexiang/test/src/core/sto/node.h
@@ -4747,6 +4935,14 @@ optional
 -
 mockturtle/mockturtle.hpp
 -
+
+/home/hexiang/test/src/core/xmg_inv.cpp
+mockturtle/properties/migcost.hpp
+-
+mockturtle/algorithms/cleanup.hpp
+-
+xmg_inv.hpp
+/home/hexiang/test/src/core/xmg_inv.hpp
 
 /home/hexiang/test/src/core/xmg_inv.hpp
 mockturtle/networks/xmg.hpp
@@ -4849,6 +5045,14 @@ img.hpp
 /home/hexiang/test/src/networks/img/img.hpp
 ../core/misc.hpp
 /home/hexiang/test/src/networks/core/misc.hpp
+
+/home/hexiang/test/src/networks/img/img_compl_rw.cpp
+img_compl_rw.hpp
+/home/hexiang/test/src/networks/img/img_compl_rw.hpp
+mockturtle/views/topo_view.hpp
+-
+mockturtle/algorithms/cleanup.hpp
+-
 
 /home/hexiang/test/src/networks/img/img_compl_rw.hpp
 img.hpp

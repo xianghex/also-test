@@ -808,8 +808,8 @@ namespace also
 
       // The special case when the Boolean chain to be synthesized
       // consists entirely of trivial functions.
-      std::cout<<"spec.get_nr_in():  "<<spec.get_nr_in()<<std::endl;
-      std::cout<<"spec.get_nr_out():  "<<spec.get_nr_out()<<std::endl;
+      //std::cout<<"spec.get_nr_in():  "<<spec.get_nr_in()<<std::endl;
+     // std::cout<<"spec.get_nr_out():  "<<spec.get_nr_out()<<std::endl;
       if (spec.nr_triv == spec.get_nr_out()) 
       {
         spec.nr_steps = 0;
