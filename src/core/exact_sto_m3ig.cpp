@@ -200,7 +200,6 @@ namespace also
       spec.verbosity = 0;
 
 		//kitty::print_binary(spec[0],std::cout);
-
       auto flag_normal = kitty::is_normal( tt );
       if( !flag_normal ) { std::cout << "[i] Function is not normal \n"; }
 

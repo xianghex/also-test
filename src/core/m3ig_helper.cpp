@@ -80,8 +80,7 @@ namespace also
       {
         inputs.push_back( char( 'a' + mig3.steps[step_idx][i] - 1 ) );
       }
-    }
-    
+    }    
     //std::cout<<"step_idx:  "<<step_idx<<std::endl;//which times, not which gate
     for(std::vector<char>::iterator it=inputs.begin();it!=inputs.end();it++)
     {
@@ -94,6 +93,8 @@ namespace also
     {
 		        //std::cout<<"here"<<std::endl;//can't operate
 
+    switch( mig3.operators[ step_idx ] )
+    {
       default:
         assert( false && "illegal operator id" );
         break;
@@ -202,6 +203,9 @@ namespace also
       {
         case 0:
        // std::cout<<"pis: "<<mig.create_maj( tmp_in0, tmp_in1, tmp_in2 ).data<<std::endl;
+      switch( mig3.get_op( i ) )
+      {
+        case 0:
           pis.push_back( mig.create_maj( tmp_in0, tmp_in1, tmp_in2 ) );
           break;
 

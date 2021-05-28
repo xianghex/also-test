@@ -819,7 +819,6 @@ namespace also
           mig3.set_output(h, (spec.triv_func(h) << 1) +
               ((spec.out_inv >> h) & 1));
         }
-        
         return success;
       }
 

@@ -34,7 +34,7 @@
 #include "commands/exact_maj.hpp"
 #include "commands/exprsim.hpp"
 #include "commands/xmgrw.hpp"
-#include "commands/xmgrs.hpp"
+//#include "commands/xmgrs.hpp"
 #include "commands/cutrw.hpp"
 #include "commands/xmgcost.hpp"
 #include "commands/magic.hpp"
@@ -56,6 +56,7 @@
 #include "commands/xmgban.hpp"
 #include "commands/heuristic.hpp"
 #include "commands/test.hpp"
+#include "commands/techmap.hpp"
 
 ALICE_MAIN( also )
 

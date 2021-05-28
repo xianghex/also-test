@@ -107,7 +107,6 @@ namespace alice
 	std::cout <<std::endl;
 	std::cout <<"tt: 0x"<< kitty::to_hex(tt ) << std::endl; 
 
-
           std::cout << fmt::format( "[time]: {:5.2f} seconds\n", to_seconds( time ) );
         }
         else
